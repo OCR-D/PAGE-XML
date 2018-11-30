@@ -2161,23 +2161,6 @@ It does not contain pagenumber (if not part of running title), marginals, signat
     	<attribute name="strikethrough" type="boolean"></attribute>
         <attribute name="smallCaps" type="boolean"></attribute>
         <attribute name="letterSpaced" type="boolean"></attribute>
-        <attribute name="antiqua" type="boolean">
-            <annotation>
-                <documentation>
-                    This element is typeset in an Antiqua typeface and not a
-                    blackletter typeface.
-                </documentation>
-            </annotation>
-        </attribute>
-        <attribute name="fracturSwitch" type="boolean">
-            <annotation>
-                <documentation>
-                    This element is typeset in blackletter typeface and not an
-                    Antiqua typeset or in a different blackletter typeface than
-                    the previous element.
-                </documentation>
-            </annotation>
-        </attribute>
     </complexType>
 
     <complexType name="RegionType" abstract="true">
